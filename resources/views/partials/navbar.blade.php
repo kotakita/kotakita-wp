@@ -148,13 +148,19 @@
 					</div>
 				</div>
 			</div> -->
-		</div>
+    </div>
+
 		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span>
-		</a>
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">
+        @include('icons.arrow-back')
+      </span>
+      <span class="sr-only">Previous</span>
+    </a>
+
 		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true">
+        @include('icons.arrow-forward')
+      </span>
+      <span class="sr-only">Next</span>
 		</a>
 	</div><!-- /.carousel -->

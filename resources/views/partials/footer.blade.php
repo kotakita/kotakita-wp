@@ -1,4 +1,10 @@
-<p class="pull-right"><a class="btn btn-lg btn-default" href="#" role="button"><span class="iconic iconic-arrow-right-angle-thick-left-top-line" title="Back up to top" aria-hidden="true"></span></a></p>
+<p class="pull-right">
+  <a class="btn btn-lg btn-default" href="#" role="button">
+    <span class="iconic iconic-arrow-right-angle-thick-left-top-line" title="Back up to top" aria-hidden="true">
+      @include('icons.arrow-upward')
+    </span>
+  </a>
+</p>
 
 <div id="footer" class="container-fluid" style="background-color:#263a45;">
 
