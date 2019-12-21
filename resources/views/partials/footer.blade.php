@@ -34,7 +34,8 @@
 					<h5>&copy; 2018 Yayasan Kota Kita</h5>
 				</div>
 				<div class="col-md-7">
-					<a class="twitter-timeline" data-height="480" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/kotakitaorg?ref_src=twsrc%5Etfw">Tweets by kotakitaorg</a>
+          <a class="twitter-timeline" data-height="480" data-theme="light" data-link-color="#2B7BB9" data-dnt="true" href="https://twitter.com/kotakitaorg?ref_src=twsrc%5Etfw">Tweets by kotakitaorg</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					{{-- <a class="twitter-timeline" data-height="480" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/kotakitaorg?ref_src=twsrc%5Etfw">Tweets by kotakitaorg</a> --}}
 					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 				</div>
 			</div>
