@@ -30,11 +30,36 @@
 
 
 					<div id="social-icons">
-            <a href="https://www.instagram.com/kotakitaorg/" target="_blank"><span class="fab fa-instagram fa-lg" title="social instagram" aria-hidden="true"></span></a>
-						<a href="http://www.facebook.com/solo.kota.kita" target="_blank"><span class="fab fa-facebook fa-lg" title="social facebook" aria-hidden="true"></span></a>
-            <a href="https://twitter.com/kotakitaorg" target="_blank"><span class="fab fa-twitter fa-lg" title="social twitter" aria-hidden="true"></span></a>
-            <a href="https://www.youtube.com/channel/UC7h8eMsspsYvUFm9j7U932g" target="_blank"><span class="fab fa-youtube fa-lg" title="social youtube" aria-hidden="true"></span></a>
-						<a href="https://www.flickr.com/photos/solo-kota-kita" target="_blank"><span class="fab fa-flickr fa-lg" title="camera slr" aria-hidden="true"></span></a>
+            <a href="https://www.instagram.com/kotakitaorg/" target="_blank">
+              {{-- <span class="fab fa-instagram fa-lg" title="social instagram" aria-hidden="true"></span> --}}
+              <span style="display: block; width: 24px; height: 24px;">
+              @include('icons.instagram')
+              </span>
+            </a>
+            <a href="http://www.facebook.com/solo.kota.kita" target="_blank">
+              {{-- <span class="fab fa-facebook fa-lg" title="social facebook" aria-hidden="true"></span> --}}
+              <span style="display: block; width: 24px; height: 24px;">
+              @include('icons.facebook')
+              </span>
+            </a>
+            <a href="https://twitter.com/kotakitaorg" target="_blank">
+              {{-- <span class="fab fa-twitter fa-lg" title="social twitter" aria-hidden="true"></span> --}}
+              <span style="display: block; width: 24px; height: 24px;">
+              @include('icons.twitter')
+              </span>
+            </a>
+            <a href="https://www.youtube.com/channel/UC7h8eMsspsYvUFm9j7U932g" target="_blank">
+              {{-- <span class="fab fa-youtube fa-lg" title="social youtube" aria-hidden="true"></span> --}}
+              <span style="display: block; width: 24px; height: 24px;">
+              @include('icons.youtube')
+              </span>
+            </a>
+            <a href="https://www.flickr.com/photos/solo-kota-kita" target="_blank">
+              {{-- <span class="fab fa-flickr fa-lg" title="camera slr" aria-hidden="true"></span> --}}
+              <span style="display: block; width: 24px; height: 24px;">
+              @include('icons.flickr')
+              </span>
+            </a>
 					</div>
 					<hr class="featurette-divider">
 					<h5>&copy; 2018 Yayasan Kota Kita</h5>
