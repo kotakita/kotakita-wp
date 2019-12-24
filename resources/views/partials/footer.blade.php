@@ -29,7 +29,7 @@
           </div> -->
 
 
-					<div id="social-icons">
+					<div class="social-icons" id="social-icons">
             <a href="https://www.instagram.com/kotakitaorg/" target="_blank">
               {{-- <span class="fab fa-instagram fa-lg" title="social instagram" aria-hidden="true"></span> --}}
               <span style="display: block; width: 24px; height: 24px;">

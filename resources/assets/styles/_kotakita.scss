@@ -338,13 +338,19 @@ footer {
 	margin-top: -36px;
 	padding: 2em 1em 16em 2em;
 }
-#footer #social-icons a {
-	margin-right: 0.675em;
-}
 #footer .featurette-divider {
   border-top: 1px solid #0E2430;
 }
 
 .secondary-text {
   font-size: 22px;
+}
+
+.social-icons {
+	display: flex;
+
+	& a {
+		display: inline-flex;
+		margin-right: 24px;
+	}
 }
